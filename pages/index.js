@@ -9,7 +9,8 @@ function IndexPage({ feed }) {
   }, [])
 
   return (
-    <div className="mx-auto max-w-4xl mt-12 py-4 flex justify-center">
+    <div className="mx-auto max-w-4xl mt-12 py-4">
+      <h1 className="py-4 sm:py-6 text-center font-extrabold text-2xl sm:text-3xl text-palette-primary">Nerd Feed</h1>
       <div className="w-full">
         {feedData.map((item, index) => (
           <NerdCard

@@ -90,13 +90,13 @@ function ProfilePage({ user, session }) {
                 Edit Profile
               </button>
               :
-              <button>Follow</button>
+              null
             }
           </div>
           <div className="flex space-x-2 sm:space-x-4">
-            <NerdStat num={97} stat="posts" />
-            <NerdStat num={705} stat="followers" />
-            <NerdStat num={12} stat="following" />
+            <NerdStat num={posts.length} stat="posts" />
+            <NerdStat num={`♾️`} stat="followers" />
+            <NerdStat num={`♾️`} stat="following" />
           </div>
         </div>
         <p className="col-start-1 col-span-5 px-4">
