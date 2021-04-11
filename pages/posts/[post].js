@@ -5,6 +5,7 @@ import CardActionsSection from '@/components/CardActionsSection'
 import CardCommentSection from '@/components/CardCommentSection'
 import PostComment from '@/components/PostComment'
 import { useRouter } from 'next/router'
+import prisma from '@/lib/prisma'
 
 function PostPage({ post, session }) {
   const router = useRouter()
