@@ -26,6 +26,11 @@ function IndexPage({ feed }) {
 export const getServerSideProps = async () => {
   const feedResponse = await prisma.post.findMany({
     take: 10,
+    orderBy: [
+      {
+        createdAt: 'desc'
+      }
+    ],
     include: {
       author: {
         select: { name: true, image: true },

@@ -128,7 +128,11 @@ export const getServerSideProps = async (context) => {
       name: true,
       image: true,
       bio: true,
-      posts: true,
+      posts: {
+        orderBy: {
+          createdAt: 'desc'
+        }
+      },
     },
   })
 
