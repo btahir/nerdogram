@@ -2,7 +2,10 @@
 
 Nerdogram is an open source, very original, photo sharing app that is exclusive to folks who have a Github account i.e. you can only sign up if you have one.
 You can see a Live Demo [here](https://nerdogram.vercel.app/ "Nerdogram").
-Let's make nerds cool again.
+
+# Why?
+
+Why not? Let's make nerds cool again by sharing photos of our favorite Github projects. A picture is worth a thousand lines of code as they say.
 
 <div align="center">
  <img src="https://github.com/btahir/next-tailwind/blob/next-instagram/public/images/main.jpeg">
