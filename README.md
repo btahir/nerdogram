@@ -30,7 +30,7 @@ Why not? Let's make nerds cool again by sharing photos of our favorite Github pr
 
 * Currently using Github name and not username for user id which is problematic as this is not unique and will lead to issues for users signing up with the same name. Need to update Prisma Adapter for this.
 * No pagination. Currently just loading ten posts on the feed. For more need to add pagination to queries, store the state and infinite scrolling to render more updates.
-* No searchability. Need to add searchbar in Nav and ability to search through posts.
+* No searchability. The search bar is not functional.
 
 ## How to use
 
