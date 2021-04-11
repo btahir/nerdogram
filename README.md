@@ -34,7 +34,8 @@ Why not? Let's make nerds cool again by sharing photos of our favorite Github pr
 
 ## How to use
 
-You will need to setup a Heroku POstgres SQL Instance. I recommend this [guide](https://dev.to/prisma/how-to-setup-a-free-postgresql-database-on-heroku-1dc1 "guide").
+You will need to setup a Heroku Postgres SQL Instance. I recommend this [guide](https://dev.to/prisma/how-to-setup-a-free-postgresql-database-on-heroku-1dc1 "guide"). This [article] (https://vercel.com/guides/nextjs-prisma-postgres "article") goes more in depth on how to integrate prisma into a Nextjs app.
+
 You will also need to setup a Cloudinary account for images.
 
 ### Setup Environment variables
@@ -52,7 +53,14 @@ NEXT_PUBLIC_CLOUDINARY_UNSIGNED_UPLOAD_PRESET=
 
 ### Installation
 
-Change into the project directory and run the following command:
+Change into the project directory. Make sure you have prisma installed and then push your database:
+
+```
+npm install prisma --save-dev
+npx prisma db push --preview-feature
+```
+
+Run the following command to install all dependencies and start the app:
 
 ```
 yarn && yarn dev
