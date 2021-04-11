@@ -1,0 +1,28 @@
+{
+  "name": "with-tailwindcss",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-brands-svg-icons": "^5.15.2",
+    "@fortawesome/free-regular-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@prisma/client": "^2.20.1",
+    "autoprefixer": "^10.0.4",
+    "next": "latest",
+    "next-auth": "^3.14.0",
+    "next-pwa": "^5.0.5",
+    "postcss": "^8.1.10",
+    "prisma": "2.20.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "tailwindcss": "^2.0.2",
+    "webpack": "^5.24.2"
+  }
+}
