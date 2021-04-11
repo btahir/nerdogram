@@ -26,6 +26,12 @@ Why not? Let's make nerds cool again by sharing photos of our favorite Github pr
 * Vercel to deploy site on
 * Font Awesome Icons
 
+## Issues/ToDos
+
+* Currently using Github name and not username for user id which is problematic as this is not unique and will lead to issues for folks signing up with the same name. Need to update Prisma Adapter for this.
+* No pagination. Currently just loading ten posts on the feed. For more need to add pagination and infinite scrolling.
+* No searchability. Need to add search bar in Nav and ability to search through posts.
+
 ## How to use
 
 You will need to setup a Heroku POstgres SQL Instance. I recommend this [guide](https://dev.to/prisma/how-to-setup-a-free-postgresql-database-on-heroku-1dc1 "guide").
