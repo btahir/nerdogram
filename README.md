@@ -26,11 +26,11 @@ Why not? Let's make nerds cool again by sharing photos of our favorite Github pr
 * Vercel to deploy site on
 * Font Awesome Icons
 
-## Issues/ToDos
+## Issues/Todos
 
-* Currently using Github name and not username for user id which is problematic as this is not unique and will lead to issues for folks signing up with the same name. Need to update Prisma Adapter for this.
-* No pagination. Currently just loading ten posts on the feed. For more need to add pagination and infinite scrolling.
-* No searchability. Need to add search bar in Nav and ability to search through posts.
+* Currently using Github name and not username for user id which is problematic as this is not unique and will lead to issues for users signing up with the same name. Need to update Prisma Adapter for this.
+* No pagination. Currently just loading ten posts on the feed. For more need to add pagination to queries, store the state and infinite scrolling to render more updates.
+* No searchability. Need to add searchbar in Nav and ability to search through posts.
 
 ## How to use
 
