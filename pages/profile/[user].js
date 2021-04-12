@@ -95,8 +95,8 @@ function ProfilePage({ user, session }) {
           </div>
           <div className="flex space-x-2 sm:space-x-4">
             <NerdStat num={posts.length} stat="posts" />
-            <NerdStat num={`♾️`} stat="followers" />
-            <NerdStat num={`♾️`} stat="following" />
+            <NerdStat num={`♾️ `} stat="followers" />
+            <NerdStat num={`♾️ `} stat="following" />
           </div>
         </div>
         <p className="col-start-1 col-span-5 px-4">

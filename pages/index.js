@@ -9,8 +9,6 @@ function IndexPage({ feed }) {
     setFeedData(JSON.parse(feed))    
   }, [])
 
-  console.log(feedData)
-
   return (
     <div className="mx-auto max-w-4xl mt-12 py-4">
       <h1 className="py-4 sm:py-6 text-center font-extrabold text-3xl sm:text-4xl text-gray-900">Nerd Feed</h1>
